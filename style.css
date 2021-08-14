@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'STIX Two Text', serif;
+}
+
+.wrapper{
+    background-color: #EFF8FA;
+    display: flex;
+}
+
+.sideBar {
+    width: 30%;
+    padding: 0.5%;
+    background-color: #DEECF1;
+}
+
+.buttonName {
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 1%;
+    background-color: #EFF8FA;
+    border-color: white;
+    font-family: 'STIX Two Text', serif;
+    font-size: large;
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: #DEECF1;
+    display: block;
+    margin: 3%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.cardName,
+.cardPhone,
+.cardUsername,
+.cardCity,
+.cardCountry,
+.cardWebsite,
+.cardCompanyName {
+    background-color: #BCC7FF;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+.titleName,
+.titlePhone,
+.titleUsername,
+.titleAddress,
+.titleWebsite,
+.titleCompanyName {
+    width: 80%;
+    margin: auto;
+    padding: 1% 0;
+}
+
+.titleCity,
+.titleCountry {
+    width: 95%;
+    text-align: left;
+    padding: 0.5% 0;
+}
+
+.cardCity,
+.cardCountry {
+    width: 95%;
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+.titleAddress {
+    padding: 2% 0.5%;
+    margin: 1% auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.title {
+    padding: 1%;
+    text-align: center;
+    font-size: xx-large;
+}
